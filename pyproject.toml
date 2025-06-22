@@ -1,0 +1,14 @@
+[project]
+name = "ml-training"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fsspec>=2025.5.1",
+    "huggingface-hub[cli,hf-transfer]>=0.33.0",
+    "ipykernel>=6.29.5",
+    "mlx-lm>=0.25.2",
+    "pandas>=2.3.0",
+    "pyarrow>=20.0.0",
+]
